@@ -9,7 +9,7 @@ app = Flask(__name__)
 tarefas = [
 	{
 		"id": 1,
-		"tarefa": "Pagar Ricarbox",
+		"tarefa": "Comprar Almoço",
 		"responsavel": "Douglas",
 		"status": "Pendente",
 	},
