@@ -29,7 +29,7 @@ tarefas = [
 
 # GET retorna tudo, POST cria novo registro
 # POST o ID esta sendo passado manualmente, por fins de estudo
-@app.route("/tarefas", methods=["GET", "POST"])
+@app.route("/tarefas/", methods=["GET", "POST"])
 def home():
 	if request.method == "GET":
 		return jsonify(tarefas)
